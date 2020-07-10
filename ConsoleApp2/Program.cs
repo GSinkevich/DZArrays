@@ -123,11 +123,12 @@ namespace ConsoleApp2
         public static int[] Task7()
         {
             int[] a = new int[] { 5, 12, 13, 2, 1, 9, 15, 19, 6 };
-            int[] b = new int[9];
+            
+            int[] b = new int[a.Length];
           
                 for (int i = 0; i < a.Length; i++)
                 {
-                    b[8-i] = a[i];
+                    b[a.Length-1-i] = a[i];
                 }
             
             return b;
@@ -139,7 +140,7 @@ namespace ConsoleApp2
         /// </summary>
         public static void Task8()
         {
-            int[] a = new int[] { 5, 12, 13, 2, 1, 9, 15, 19, 6 };
+          
         }
 
         /// <summary>
